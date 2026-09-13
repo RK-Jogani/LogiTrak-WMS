@@ -1,0 +1,19 @@
+{
+  "name": "logitrack-wms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev:web": "pnpm --filter @logitrack/web dev",
+    "dev:api": "pnpm --filter @logitrack/api dev",
+    "db:migrate": "pnpm --filter @logitrack/api prisma:migrate",
+    "db:seed": "pnpm --filter @logitrack/api prisma:seed",
+    "db:studio": "pnpm --filter @logitrack/api prisma:studio"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.1.0"
+}
