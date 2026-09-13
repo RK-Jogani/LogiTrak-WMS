@@ -23,46 +23,6 @@
 
 ---
 
-## 👥 Academic Evaluation & Team Information
-
-| Criteria | Details |
-|---|---|
-| **Course / Assessment** | Software Engineering Project / Capstone Evaluation |
-| **Total Marks** | **30 Marks** |
-| **Grading Distribution** | **20 Marks** (Coding Quality + SaaS Architecture & Idea) + **10 Marks** (Documentation & Technical Completeness) |
-| **Group Size** | **3 Members** |
-
-### 👨‍💻 Project Team Members & Roles
-
-| # | Student Name | Student ID / Roll No | Assigned Project Role | Core Technical Contributions |
-|:---:|:---|:---:|:---|:---|
-| **1** | **Ramesh Kumar** | `B22110006133` | **Database & Backend Lead** | Prisma ORM schema design (16 relational models), PostgreSQL multi-tenant architecture, Express REST routes, database migrations, and seed automation. |
-| **2** | **Preet Kumar** | `B22110006131` | **Backend & Frontend Lead** | API integration, JWT & RBAC authentication middleware, SaaS Super Admin panel, state management (Zustand & Context API), and Turborepo monorepo setup. |
-| **3** | **Malaika Qazi** | `B22110006073` | **UI/UX & Frontend Lead** | Next.js 16 App Router UI, Tailwind CSS v4 design system, interactive warehouse dashboards, responsive drawers/modals, and internationalization (i18n). |
-
----
-
-## 🎯 Scoring Rubric Mapping (Target: 30 / 30 Marks)
-
-```
-┌──────────────────────────────────────────────────────────────────────────┐
-│                   LOGITRAK-WMS EVALUATION BREAKDOWN                      │
-├──────────────────────────────────────┬───────────────────────────────────┤
-│ CODING + IDEA: 20 MARKS              │ DOCUMENTATION: 10 MARKS           │
-├──────────────────────────────────────┼───────────────────────────────────┤
-│ • SaaS Multi-Tenant Architecture     │ • Complete Architecture Diagrams  │
-│ • Monorepo Turborepo Structure       │ • Prisma Database ERD Breakdown   │
-│ • Prisma ORM & PostgreSQL Database   │ • Full RESTful API Specification  │
-│ • Express TypeScript API Services    │ • Step-by-Step Run Commands       │
-│ • Role-Based Access Control (RBAC)   │ • RBAC Role & Permissions Matrix  │
-│ • Reverse Logistics & Auto-Restock   │ • Pre-Seeded Demo Credentials     │
-│ • Next.js 16 + React 19 Frontend     │ • Component & Module Catalog      │
-│ • Accounting Ledger & 3PL Billing    │ • DOCUMENT.md for PDF Submission  │
-└──────────────────────────────────────┴───────────────────────────────────┘
-```
-
----
-
 ## 🏗️ System Architecture
 
 LogiTrack WMS follows a modern distributed monorepo architecture leveraging **Turborepo**, cleanly separating client presentation from backend business logic and database persistence.
