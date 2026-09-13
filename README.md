@@ -23,6 +23,16 @@
 
 ---
 
+### 👨‍💻 Project Team Members & Roles
+
+| # | Student Name | Student ID / Roll No | Assigned Project Role | Core Technical Contributions |
+|:---:|:---|:---:|:---|:---|
+| **1** | **Ramesh Kumar** | `B22110006133` | **Database & Backend Lead** | Prisma ORM schema design (16 relational models), PostgreSQL multi-tenant architecture, Express REST routes, database migrations, and seed automation. |
+| **2** | **Preet Kumar** | `B22110006131` | **Backend & Frontend Lead** | API integration, JWT & RBAC authentication middleware, SaaS Super Admin panel, state management (Zustand & Context API), and Turborepo monorepo setup. |
+| **3** | **Malaika Qazi** | `B22110006073` | **UI/UX & Frontend Lead** | Next.js 16 App Router UI, Tailwind CSS v4 design system, interactive warehouse dashboards, responsive drawers/modals, and internationalization (i18n). |
+
+---
+
 ## 🏗️ System Architecture
 
 LogiTrack WMS follows a modern distributed monorepo architecture leveraging **Turborepo**, cleanly separating client presentation from backend business logic and database persistence.
